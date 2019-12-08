@@ -7,7 +7,74 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+CSS
+.center {
+  width: 800px;
+  border: 1px solid #444;
+  height: 400px;
+  position: relative;
+  vertical-align: middle;
+  display: table-cell;
+}
+.yellowBackground {
+  width: 80%;
+  background-color: #ee8;
+  margin: 0px auto;
+  border: 1px solid #444;
+  position: relative;
+  display: flex;
+  padding: 5px 20px;
+}
+.yellowSmartphone{
+	width: 80%;
+	background-color: yellow;
+	margin: 0px auto;
+	border: 1px solid #444;
+	position: relative;
+	display: block;
+	padding: 5px 20px;
+}
+.stepBox {
+  background-color: #ccc;
+  margin: 10px;
+  width: 33%;
+  display: table-cell;
+  height: 200px;
+  text-align: center;
+  border: 1px solid #666;
+}
+
+.stepBoxVertical{
+	background-color: #ccc;
+	width:80%;
+	display: block;
+	text-align: center;
+	border: 1px solid #666;
+	margin: 20px;
+}
+
+.circleStep {
+	position: absolute;
+	top:-10px;
+	border-radius: 50%;
+	background-color: #444;
+	color: #ccc;
+	height: 25px;
+	width:25px;
+	font-size: 1em;
+	margin-left:-1em;
+	font-weight: 600;
+}
+
+.circleStepVertical{
+	position: absolute;
+	color:#ccc;
+	background-color:#444; 
+	border-radius: 50%;
+	height: 25px;
+	width: 25px;
+	margin-top:1em;
+	left: 9%;
+	font-weight: 600;
+	font-size:1em;
 }
